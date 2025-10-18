@@ -155,7 +155,7 @@ body {
 /* ======== HERO SECTION ======== */
 .hero-section {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/Hero/Hero.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/hero/hero.jpg') no-repeat center center/cover;
     color: var(--text-light);
     display: flex;
     align-items: center;
