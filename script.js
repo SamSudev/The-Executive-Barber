@@ -29,17 +29,12 @@ document.addEventListener("DOMContentLoaded", function() {
         element.classList.add("is-visible");
     };
 
-    const hideScrollElement = (element) => {
-        element.classList.remove("is-visible");
-    };
+  
 
     const handleScrollAnimation = () => {
         scrollElements.forEach((el) => {
             if (elementInView(el, 1.25)) {
                 displayScrollElement(el);
-            } else {
-                // Uncomment the line below to make animations replay on scroll up
-                // hideScrollElement(el); 
             }
         });
     };
@@ -48,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
         handleScrollAnimation();
     });
 
-    // Trigger animation for elements already in view on page load
+
     handleScrollAnimation();
 
 });
